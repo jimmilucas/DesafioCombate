@@ -53,8 +53,8 @@ public class Program {
 			System.out.printf("Resultado do turno %d:", i);
 			c1.takeDamage(c2);
 			c2.takeDamage(c1);
-			System.out.printf("\n%s : %d de vida %s",c1.getName(), c1.getLife(), c1.status());
-			System.out.printf("\n%s : %d de vida %s",c2.getName(), c2.getLife(), c2.status());
+			System.out.printf("\n%s: %d de vida %s",c1.getName(), c1.getLife(), c1.status());
+			System.out.printf("\n%s: %d de vida %s",c2.getName(), c2.getLife(), c2.status());
 			System.out.println();
 			if ((c1.getLife() == 0) || (c2.getLife() == 0)) {
 				break;
